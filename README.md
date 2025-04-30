@@ -66,12 +66,12 @@ tr_labs_ds_challenge/
 
 ## Usage
 
-### 1. Precompute Embeddings (if starting from raw data)
+### 1. (Optional) Precompute Embeddings - if starting from raw data
 ```bash
 python notebooks/precompute_embeddings.ipynb
 ```
 
-### 2. Train Classifier (if retraining)
+### 2. (Optional) Train Classifier - if retraining
 ```bash
 python notebooks/train_classifier_from_embeddings.ipynb
 ```
